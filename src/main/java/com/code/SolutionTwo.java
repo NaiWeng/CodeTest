@@ -22,7 +22,7 @@ public class SolutionTwo {
             char[] chars = str.toCharArray();
             return chars[0] != chars[1] || chars[0] != chars[2] || chars[1] != chars[2];
         }
-        return false;
+        return true;
     }
 
     public static void solution(String input) {
